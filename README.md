@@ -37,7 +37,7 @@ https://t.me/antizapret_support
    ```
 1. Clone repository and start container:
    ```bash
-   git clone https://github.com/xtrime-ru/antizapret-vpn-docker.git antizapret
+   git clone https://github.com/Murakumo-JP/AntiZapretVPN.git antizapret
    cd antizapret
    ```
 2. Create docker-compose.override.yml with services you need. Minimal example with only wireguard:
@@ -125,19 +125,6 @@ docker compose pull
 docker compose build
 docker compose down --remove-orphans && docker compose up -d --remove-orphans
 ```
-
-### Upgrade from v3
-**Only WireGuard/Amnezia configs can be moved**, please make backup WireGuard files (from `./.etc_wireguard` or `./.etc_wireguard_amnezia`) and put them in `./config/wireguard` or `./config/wireguard_amnezia` accordingly after steps below.
-
-Recommended to perform full remove of old version:
-```shell
-docker compose down --remove-orphans
-docker system prune -af
-cd ../
-rm -rf antizapret/
-```
-
-Then follow installation steps from this README.
 
 ## Reset:
 Remove all settings, vpn configs and return initial state of service:
