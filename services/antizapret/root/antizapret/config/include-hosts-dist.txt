@@ -44,37 +44,9 @@ googleusercontent.com
 googlevideo.com
 youtubei.googleapis.com
 
-
-# google
-news.google.com
-chrome.google.com
-
 # gemini
 gemini.google.com
 proactivebackend-pa.googleapis.com
-
-
-# google play and android
-play.google.com
-google-analytics.com
-googleusercontent.com
-*gstatic.com
-*.gvt1.com
-*.ggpht.com
-dl.google.com
-dl-ssl.google.com
-android.com
-androidify.com
-android.apis.google.com
-android.clients.google.com
-*.gvt2.com
-*.gvt3.com
-googleplay.com
-play-fe.googleapis.com
-play-games.googleusercontent.com
-play-lh.googleusercontent.com
-play.googleapis.com
-
 
 # microsoft
 bing.com
