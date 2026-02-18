@@ -33,7 +33,7 @@ services:
         LISTS=
           https://raw.githubusercontent.com/zapret-info/z-i/master/nxdomain.txt;
           https://antifilter.download/list/domains.lst;
-      - IP_LIST=https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv.gz
+      - IP_LIST=
       - SKIP_UPDATE_FROM_ZAPRET
       - ADGUARDHOME_PORT
       - ADGUARDHOME_USERNAME
