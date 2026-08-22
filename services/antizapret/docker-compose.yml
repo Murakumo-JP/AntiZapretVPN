@@ -1,6 +1,5 @@
 services:
   antizapret:
-    image: murakumo/antizapret-vpn
     hostname: core.antizapret
     restart: unless-stopped
     stop_signal: SIGRTMIN+4
